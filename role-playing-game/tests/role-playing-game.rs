@@ -16,7 +16,6 @@ fn test_reviving_dead_player() {
 }
 
 #[test]
-#[ignore]
 fn test_reviving_dead_level9_player() {
     let dead_player = Player {
         health: 0,
@@ -32,7 +31,6 @@ fn test_reviving_dead_level9_player() {
 }
 
 #[test]
-#[ignore]
 fn test_reviving_dead_level10_player() {
     let dead_player = Player {
         health: 0,
@@ -48,7 +46,6 @@ fn test_reviving_dead_level10_player() {
 }
 
 #[test]
-#[ignore]
 fn test_reviving_alive_player() {
     let alive_player = Player {
         health: 1,
@@ -79,7 +76,6 @@ fn test_cast_spell_with_enough_mana() {
 }
 
 #[test]
-#[ignore]
 fn test_cast_spell_with_insufficient_mana() {
     let mut no_mana_wizard = Player {
         health: 56,
@@ -98,7 +94,6 @@ fn test_cast_spell_with_insufficient_mana() {
 }
 
 #[test]
-#[ignore]
 fn test_cast_spell_with_no_mana_pool() {
     const MANA_COST: u32 = 10;
 
@@ -119,7 +114,6 @@ fn test_cast_spell_with_no_mana_pool() {
 }
 
 #[test]
-#[ignore]
 fn test_cast_large_spell_with_no_mana_pool() {
     const MANA_COST: u32 = 30;
 
