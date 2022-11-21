@@ -2,21 +2,22 @@
 // In order to pass the tests you can add-to or change any of this code.
 
 #[derive(Debug)]
-pub struct Duration;
+pub struct Duration {
+    seconds:f64
+}
 
 impl From<u64> for Duration {
     fn from(s: u64) -> Self {
-        unimplemented!("s, measured in seconds: {}", s)
+        Duration { seconds: s  as f64}
     }
 }
 
 pub trait Planet {
     fn years_during(d: &Duration) -> f64 {
-        unimplemented!(
-            "convert a duration ({:?}) to the number of years on this planet for that duration",
-            d,
-        );
+         d.seconds/31557600.0 / Self::planet_factor()
     }
+
+    fn planet_factor() -> f64 ;
 }
 
 pub struct Mercury;
@@ -28,11 +29,12 @@ pub struct Saturn;
 pub struct Uranus;
 pub struct Neptune;
 
-impl Planet for Mercury {}
-impl Planet for Venus {}
-impl Planet for Earth {}
-impl Planet for Mars {}
-impl Planet for Jupiter {}
-impl Planet for Saturn {}
-impl Planet for Uranus {}
-impl Planet for Neptune {}
+
+impl Planet for Mercury { fn planet_factor() -> f64 { 0.2408467  } }
+impl Planet for Venus   { fn planet_factor() -> f64 { 0.61519726 } }
+impl Planet for Earth   { fn planet_factor() -> f64 { 1.0        } }
+impl Planet for Mars    { fn planet_factor() -> f64 { 1.8808158  } }
+impl Planet for Jupiter { fn planet_factor() -> f64 { 11.862615  } }
+impl Planet for Saturn  { fn planet_factor() -> f64 { 29.447498  } }
+impl Planet for Uranus  { fn planet_factor() -> f64 { 84.016846  } }
+impl Planet for Neptune { fn planet_factor() -> f64 { 164.79132  } }
