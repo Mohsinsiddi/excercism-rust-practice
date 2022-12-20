@@ -74,7 +74,6 @@ fn test_49() {
 }
 
 #[test]
-#[ignore]
 fn test_52() {
     assert_eq!("52", raindrops::raindrops(52));
 }
