@@ -29,7 +29,6 @@ fn test_8() {
 }
 
 #[test]
-#[ignore]
 fn test_9() {
     assert_eq!("Pling", raindrops::raindrops(9));
 }
