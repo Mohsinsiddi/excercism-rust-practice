@@ -39,7 +39,6 @@ fn test_zero_pieces() {
 }
 
 #[test]
-#[ignore]
 fn test_full() {
     let input = vec![
         "nail", "shoe", "horse", "rider", "message", "battle", "kingdom",
