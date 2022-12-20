@@ -60,7 +60,6 @@ fn test_magazine_has_more_words_available_than_needed() {
 }
 
 #[test]
-#[ignore]
 fn test_magazine_has_one_good_word_many_times_but_still_cant_construct() {
     let magazine = "A A A".split_whitespace().collect::<Vec<&str>>();
     let note = "A nice day".split_whitespace().collect::<Vec<&str>>();
