@@ -89,7 +89,6 @@ fn test_3125() {
 }
 
 #[test]
-#[ignore]
 fn test_12121() {
     assert_eq!("12121", raindrops::raindrops(12_121));
 }
