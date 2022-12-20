@@ -79,7 +79,6 @@ fn test_52() {
 }
 
 #[test]
-#[ignore]
 fn test_105() {
     assert_eq!("PlingPlangPlong", raindrops::raindrops(105));
 }
