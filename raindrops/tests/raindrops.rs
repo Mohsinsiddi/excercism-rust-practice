@@ -44,7 +44,6 @@ fn test_14() {
 }
 
 #[test]
-#[ignore]
 fn test_15() {
     assert_eq!("PlingPlang", raindrops::raindrops(15));
 }
