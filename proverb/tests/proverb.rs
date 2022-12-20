@@ -25,7 +25,6 @@ fn test_three_pieces() {
 }
 
 #[test]
-#[ignore]
 fn test_one_piece() {
     let input = vec!["nail"];
     let expected = String::from("And all for the want of a nail.");
