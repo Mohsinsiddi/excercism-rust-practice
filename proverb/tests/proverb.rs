@@ -1,6 +1,7 @@
 use proverb::build_proverb;
 
 #[test]
+#[ignore]
 fn test_two_pieces() {
     let input = vec!["nail", "shoe"];
     let expected = vec![
@@ -34,7 +35,6 @@ fn test_one_piece() {
 }
 
 #[test]
-#[ignore]
 fn test_zero_pieces() {
     let input: Vec<&str> = vec![];
     let expected = String::new();
