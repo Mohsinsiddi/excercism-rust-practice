@@ -13,7 +13,6 @@ fn test_two_pieces() {
 
 // Notice the change in the last line at three pieces.
 #[test]
-#[ignore]
 fn test_three_pieces() {
     let input = vec!["nail", "shoe", "horse"];
     let expected = vec![
