@@ -27,7 +27,6 @@ fn test_other_whitespace() {
 }
 
 #[test]
-#[ignore]
 /// shouting with special characters
 fn test_shouting_with_special_characters() {
     process_response_case(
