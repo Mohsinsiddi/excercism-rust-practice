@@ -66,7 +66,6 @@ fn test_asking_gibberish() {
 }
 
 #[test]
-#[ignore]
 /// question with no letters
 fn test_question_with_no_letters() {
     process_response_case("4?", "Sure.");
