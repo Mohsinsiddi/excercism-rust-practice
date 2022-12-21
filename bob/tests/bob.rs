@@ -109,7 +109,6 @@ fn test_shouting() {
 }
 
 #[test]
-#[ignore]
 /// non-letters with question
 fn test_nonletters_with_question() {
     process_response_case(":) ?", "Sure.");
