@@ -127,7 +127,6 @@ fn test_asking_a_question() {
 }
 
 #[test]
-#[ignore]
 /// asking a numeric question
 fn test_asking_a_numeric_question() {
     process_response_case("You are, what, like 15?", "Sure.");
