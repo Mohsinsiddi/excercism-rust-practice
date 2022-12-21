@@ -115,7 +115,6 @@ fn test_nonletters_with_question() {
 }
 
 #[test]
-#[ignore]
 /// shouting gibberish
 fn test_shouting_gibberish() {
     process_response_case("FCECDFCAAB", "Whoa, chill out!");
