@@ -60,7 +60,6 @@ fn test_shouting_with_no_exclamation_mark() {
 }
 
 #[test]
-#[ignore]
 /// asking gibberish
 fn test_asking_gibberish() {
     process_response_case("fffbbcbeab?", "Sure.");
