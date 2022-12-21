@@ -9,7 +9,6 @@ fn test_stating_something() {
 }
 
 #[test]
-#[ignore]
 /// ending with whitespace
 fn test_ending_with_whitespace() {
     process_response_case("Okay if like my  spacebar  quite a bit?   ", "Sure.");
