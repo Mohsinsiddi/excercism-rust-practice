@@ -85,7 +85,6 @@ fn test_statement_containing_question_mark() {
 
 //NEW
 #[test]
-#[ignore]
 /// multiple line question
 fn test_multiple_line_question() {
     process_response_case(
