@@ -139,7 +139,6 @@ fn test_silence() {
 }
 
 #[test]
-#[ignore]
 /// starting with whitespace
 fn test_starting_with_whitespace() {
     process_response_case("         hmmmmmmm...", "Whatever.");
