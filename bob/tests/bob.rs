@@ -121,7 +121,6 @@ fn test_shouting_gibberish() {
 }
 
 #[test]
-#[ignore]
 /// asking a question
 fn test_asking_a_question() {
     process_response_case("Does this cryogenic chamber make me look fat?", "Sure.");
