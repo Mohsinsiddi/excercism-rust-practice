@@ -145,7 +145,6 @@ fn test_starting_with_whitespace() {
 }
 
 #[test]
-#[ignore]
 /// using acronyms in regular speech
 fn test_using_acronyms_in_regular_speech() {
     process_response_case(
