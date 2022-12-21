@@ -94,7 +94,6 @@ fn test_multiple_line_question() {
 }
 
 #[test]
-#[ignore]
 /// non-question ending with whitespace
 fn test_nonquestion_ending_with_whitespace() {
     process_response_case(
