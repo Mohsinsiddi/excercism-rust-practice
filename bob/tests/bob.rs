@@ -48,7 +48,6 @@ fn test_prattling_on() {
 }
 
 #[test]
-#[ignore]
 /// forceful question
 fn test_forceful_question() {
     process_response_case("WHAT'S GOING ON?", "Calm down, I know what I'm doing!");
