@@ -36,7 +36,6 @@ fn test_shouting_with_special_characters() {
 }
 
 #[test]
-#[ignore]
 /// talking forcefully
 fn test_talking_forcefully() {
     process_response_case("Hi there!", "Whatever.");
