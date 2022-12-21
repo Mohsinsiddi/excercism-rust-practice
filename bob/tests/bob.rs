@@ -103,7 +103,6 @@ fn test_nonquestion_ending_with_whitespace() {
 }
 
 #[test]
-#[ignore]
 /// shouting
 fn test_shouting() {
     process_response_case("WATCH OUT!", "Whoa, chill out!");
