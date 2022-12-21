@@ -3,7 +3,6 @@ fn process_response_case(phrase: &str, expected_response: &str) {
 }
 
 #[test]
-#[ignore]
 /// stating something
 fn test_stating_something() {
     process_response_case("Tom-ay-to, tom-aaaah-to.", "Whatever.");
