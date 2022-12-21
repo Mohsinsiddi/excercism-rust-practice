@@ -42,7 +42,6 @@ fn test_talking_forcefully() {
 }
 
 #[test]
-#[ignore]
 /// prattling on
 fn test_prattling_on() {
     process_response_case("Wait! Hang on. Are you going to be OK?", "Sure.");
