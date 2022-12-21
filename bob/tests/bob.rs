@@ -3,6 +3,7 @@ fn process_response_case(phrase: &str, expected_response: &str) {
 }
 
 #[test]
+#[ignore]
 /// stating something
 fn test_stating_something() {
     process_response_case("Tom-ay-to, tom-aaaah-to.", "Whatever.");
@@ -23,7 +24,6 @@ fn test_shouting_numbers() {
 }
 
 #[test]
-#[ignore]
 /// other whitespace
 fn test_other_whitespace() {
     process_response_case("\r\r 	", "Fine. Be that way!");
@@ -152,7 +152,6 @@ fn test_asking_a_numeric_question() {
 }
 
 #[test]
-#[ignore]
 /// silence
 fn test_silence() {
     process_response_case("", "Fine. Be that way!");
@@ -176,14 +175,12 @@ fn test_using_acronyms_in_regular_speech() {
 }
 
 #[test]
-#[ignore]
 /// alternate silence
 fn test_alternate_silence() {
     process_response_case("										", "Fine. Be that way!");
 }
 
 #[test]
-#[ignore]
 /// prolonged silence
 fn test_prolonged_silence() {
     process_response_case("          ", "Fine. Be that way!");
