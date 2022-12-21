@@ -78,7 +78,6 @@ fn test_no_letters() {
 }
 
 #[test]
-#[ignore]
 /// statement containing question mark
 fn test_statement_containing_question_mark() {
     process_response_case("Ending with ? means a question.", "Whatever.");
