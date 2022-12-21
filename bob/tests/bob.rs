@@ -54,7 +54,6 @@ fn test_forceful_question() {
 }
 
 #[test]
-#[ignore]
 /// shouting with no exclamation mark
 fn test_shouting_with_no_exclamation_mark() {
     process_response_case("I HATE THE DENTIST", "Whoa, chill out!");
