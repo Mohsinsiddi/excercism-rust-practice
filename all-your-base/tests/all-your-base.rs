@@ -73,7 +73,6 @@ fn trinary_to_hexadecimal() {
 }
 
 #[test]
-#[ignore]
 fn hexadecimal_to_trinary() {
     let input_base = 16;
     let input_digits = &[2, 10];
