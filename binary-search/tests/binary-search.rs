@@ -62,7 +62,6 @@ fn a_value_smaller_than_the_arrays_smallest_value_is_not_included() {
 }
 
 #[test]
-#[ignore]
 fn a_value_larger_than_the_arrays_largest_value_is_not_included() {
     assert_eq!(find(&[1, 3, 4, 6, 8, 9, 11], 13), None);
 }
