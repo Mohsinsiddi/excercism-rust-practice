@@ -49,7 +49,6 @@ fn binary_to_multiple_decimal() {
 }
 
 #[test]
-#[ignore]
 fn decimal_to_binary() {
     let input_base = 10;
     let input_digits = &[4, 2];
