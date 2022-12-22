@@ -1,3 +1,5 @@
+use core::num;
+
 #[derive(Debug, PartialEq, Eq)]
 pub enum Error {
     InvalidInputBase,
@@ -37,10 +39,37 @@ pub enum Error {
 ///    However, your function must be able to process input with leading 0 digits.
 ///
 pub fn convert(number: &[u32], from_base: u32, to_base: u32) -> Result<Vec<u32>, Error> {
-    unimplemented!(
-        "Convert {:?} from base {} to base {}",
-        number,
-        from_base,
-        to_base
-    )
+   if from_base<=1 {
+    return Err(Error::InvalidInputBase);
+   }
+
+   if to_base <=1 {
+    return  Err(Error::InvalidOutputBase);
+   }
+
+   let mut v = 0_u32;
+
+   for d in number {
+      if d >= &from_base {
+        return Err(Error::InvalidDigit(*d));
+      }
+
+      v = v * from_base + d;
+   }
+   
+   let mut r = vec![];
+
+   while v >0 {
+       r.push(v%to_base);
+       v = v/to_base;
+   }
+
+   r.reverse();
+
+   if r.is_empty() {
+   r.push(0)
+   }
+
+   Ok(r)
+
 }
