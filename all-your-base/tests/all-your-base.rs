@@ -85,7 +85,6 @@ fn hexadecimal_to_trinary() {
 }
 
 #[test]
-#[ignore]
 fn fifteen_bit_integer() {
     let input_base = 97;
     let input_digits = &[3, 46, 60];
