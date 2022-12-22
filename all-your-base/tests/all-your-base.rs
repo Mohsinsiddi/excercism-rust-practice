@@ -25,7 +25,6 @@ fn binary_to_single_decimal() {
 }
 
 #[test]
-#[ignore]
 fn single_decimal_to_binary() {
     let input_base = 10;
     let input_digits = &[5];
