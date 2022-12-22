@@ -37,7 +37,6 @@ fn single_decimal_to_binary() {
 }
 
 #[test]
-#[ignore]
 fn binary_to_multiple_decimal() {
     let input_base = 2;
     let input_digits = &[1, 0, 1, 0, 1, 0];
