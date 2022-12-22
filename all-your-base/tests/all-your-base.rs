@@ -133,7 +133,6 @@ fn multiple_zeros() {
 }
 
 #[test]
-#[ignore]
 fn leading_zeros() {
     let input_base = 7;
     let input_digits = &[0, 6, 0];
