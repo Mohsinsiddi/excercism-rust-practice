@@ -44,7 +44,6 @@ fn finds_a_value_in_an_array_of_odd_length() {
 }
 
 #[test]
-#[ignore]
 fn finds_a_value_in_an_array_of_even_length() {
     assert_eq!(
         find(&[1, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377], 21),
