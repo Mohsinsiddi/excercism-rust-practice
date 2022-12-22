@@ -189,7 +189,6 @@ fn input_base_is_zero() {
 }
 
 #[test]
-#[ignore]
 fn output_base_is_zero() {
     let input_base = 10;
     let input_digits = &[7];
