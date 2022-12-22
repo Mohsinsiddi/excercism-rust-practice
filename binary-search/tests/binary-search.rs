@@ -67,7 +67,6 @@ fn a_value_larger_than_the_arrays_largest_value_is_not_included() {
 }
 
 #[test]
-#[ignore]
 fn nothing_is_included_in_an_empty_array() {
     assert_eq!(find(&[], 1), None);
 }
