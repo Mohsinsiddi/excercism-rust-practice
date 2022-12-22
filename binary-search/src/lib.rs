@@ -1,10 +1,11 @@
+use std::cmp::Ordering::*;
 pub fn find(array: &[i32], key: i32) -> Option<usize> {
     let mut start = 0;
     let mut end = array.len();
     let mut mid = end / 2;
-    
+
     while start != end {
-        use std::cmp::Ordering::*;
+       
         match key.cmp(&array[mid]) {
             Less => end = mid,
             Equal => return Some(mid),
