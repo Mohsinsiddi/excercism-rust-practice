@@ -57,7 +57,6 @@ fn identifies_that_a_value_is_not_included_in_the_array() {
 }
 
 #[test]
-#[ignore]
 fn a_value_smaller_than_the_arrays_smallest_value_is_not_included() {
     assert_eq!(find(&[1, 3, 4, 6, 8, 9, 11], 0), None);
 }
