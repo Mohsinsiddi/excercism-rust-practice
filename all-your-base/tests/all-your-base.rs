@@ -156,7 +156,6 @@ fn invalid_positive_digit() {
 }
 
 #[test]
-#[ignore]
 fn input_base_is_one() {
     let input_base = 1;
     let input_digits = &[];
