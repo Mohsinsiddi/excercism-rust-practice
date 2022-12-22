@@ -97,7 +97,6 @@ fn fifteen_bit_integer() {
 }
 
 #[test]
-#[ignore]
 fn empty_list() {
     let input_base = 2;
     let input_digits = &[];
