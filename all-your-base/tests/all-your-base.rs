@@ -61,7 +61,6 @@ fn decimal_to_binary() {
 }
 
 #[test]
-#[ignore]
 fn trinary_to_hexadecimal() {
     let input_base = 3;
     let input_digits = &[1, 1, 2, 0];
