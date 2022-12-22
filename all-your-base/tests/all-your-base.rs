@@ -167,7 +167,6 @@ fn input_base_is_one() {
 }
 
 #[test]
-#[ignore]
 fn output_base_is_one() {
     let input_base = 2;
     let input_digits = &[1, 0, 1, 0, 1, 0];
