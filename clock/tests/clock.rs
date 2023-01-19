@@ -90,7 +90,6 @@ fn test_negative_minutes_roll_over_continuously() {
 }
 
 #[test]
-#[ignore]
 fn test_negative_sixty_minutes_is_prev_hour() {
     assert_eq!(Clock::new(2, -60).to_string(), "01:00");
 }
