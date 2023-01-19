@@ -210,7 +210,6 @@ fn test_subtract_more_than_one_day() {
 }
 
 #[test]
-#[ignore]
 fn test_subtract_more_than_two_days() {
     let clock = Clock::new(2, 20).add_minutes(-3000);
     assert_eq!(clock.to_string(), "00:20");
