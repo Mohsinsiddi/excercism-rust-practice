@@ -143,7 +143,6 @@ fn test_add_more_than_one_hour() {
 }
 
 #[test]
-#[ignore]
 fn test_add_more_than_two_hours_with_carry() {
     let clock = Clock::new(0, 45).add_minutes(160);
     assert_eq!(clock.to_string(), "03:25");
