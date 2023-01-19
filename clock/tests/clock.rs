@@ -180,7 +180,6 @@ fn test_subtract_to_previous_hour() {
 }
 
 #[test]
-#[ignore]
 fn test_subtract_more_than_an_hour() {
     let clock = Clock::new(10, 3).add_minutes(-70);
     assert_eq!(clock.to_string(), "08:53");
