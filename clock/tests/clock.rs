@@ -119,7 +119,6 @@ fn test_zero_hour_and_negative_minutes() {
 //
 
 #[test]
-#[ignore]
 fn test_add_minutes() {
     let clock = Clock::new(10, 0).add_minutes(3);
     assert_eq!(clock.to_string(), "10:03");
