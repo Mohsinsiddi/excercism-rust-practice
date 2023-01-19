@@ -220,7 +220,6 @@ fn test_subtract_more_than_two_days() {
 //
 
 #[test]
-#[ignore]
 fn test_compare_clocks_for_equality() {
     assert_eq!(Clock::new(15, 37), Clock::new(15, 37));
 }
