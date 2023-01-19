@@ -137,7 +137,6 @@ fn test_add_to_next_hour() {
 }
 
 #[test]
-#[ignore]
 fn test_add_more_than_one_hour() {
     let clock = Clock::new(10, 0).add_minutes(61);
     assert_eq!(clock.to_string(), "11:01");
