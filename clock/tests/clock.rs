@@ -250,7 +250,6 @@ fn test_compare_clocks_with_negative_hour() {
 }
 
 #[test]
-#[ignore]
 fn test_compare_clocks_with_negative_hour_that_wraps() {
     assert_eq!(Clock::new(-31, 3), Clock::new(17, 3));
 }
