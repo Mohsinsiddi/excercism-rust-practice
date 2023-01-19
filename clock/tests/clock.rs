@@ -235,7 +235,6 @@ fn test_compare_clocks_an_hour_apart() {
 }
 
 #[test]
-#[ignore]
 fn test_compare_clocks_with_hour_overflow() {
     assert_eq!(Clock::new(10, 37), Clock::new(34, 37));
 }
