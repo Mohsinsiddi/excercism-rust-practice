@@ -50,7 +50,6 @@ fn test_hours_and_minutes_roll_over() {
 }
 
 #[test]
-#[ignore]
 fn test_hours_and_minutes_roll_over_continuously() {
     assert_eq!(Clock::new(201, 3001).to_string(), "11:01");
 }
