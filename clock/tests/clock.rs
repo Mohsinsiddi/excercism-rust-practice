@@ -55,7 +55,6 @@ fn test_hours_and_minutes_roll_over_continuously() {
 }
 
 #[test]
-#[ignore]
 fn test_hours_and_minutes_roll_over_to_exactly_midnight() {
     assert_eq!(Clock::new(72, 8640).to_string(), "00:00");
 }
