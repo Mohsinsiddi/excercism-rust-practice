@@ -156,7 +156,6 @@ fn test_add_across_midnight() {
 }
 
 #[test]
-#[ignore]
 fn test_add_more_than_one_day() {
     let clock = Clock::new(5, 32).add_minutes(1500);
     assert_eq!(clock.to_string(), "06:32");
