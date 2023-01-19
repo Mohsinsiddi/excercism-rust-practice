@@ -131,7 +131,6 @@ fn test_add_no_minutes() {
 }
 
 #[test]
-#[ignore]
 fn test_add_to_next_hour() {
     let clock = Clock::new(0, 45).add_minutes(40);
     assert_eq!(clock.to_string(), "01:25");
