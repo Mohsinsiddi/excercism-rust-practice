@@ -45,7 +45,6 @@ fn test_minutes_roll_over_continuously() {
 }
 
 #[test]
-#[ignore]
 fn test_hours_and_minutes_roll_over() {
     assert_eq!(Clock::new(25, 160).to_string(), "03:40");
 }
