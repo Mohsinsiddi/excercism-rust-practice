@@ -186,7 +186,6 @@ fn test_subtract_more_than_an_hour() {
 }
 
 #[test]
-#[ignore]
 fn test_subtract_across_midnight() {
     let clock = Clock::new(0, 3).add_minutes(-4);
     assert_eq!(clock.to_string(), "23:59");
