@@ -265,7 +265,6 @@ fn test_compare_clocks_with_minutes_overflow() {
 }
 
 #[test]
-#[ignore]
 fn test_compare_clocks_with_minutes_overflow_by_several_days() {
     assert_eq!(Clock::new(2, 4322), Clock::new(2, 2));
 }
