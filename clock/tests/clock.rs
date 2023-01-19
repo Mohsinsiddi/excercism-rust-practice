@@ -225,7 +225,6 @@ fn test_compare_clocks_for_equality() {
 }
 
 #[test]
-#[ignore]
 fn test_compare_clocks_a_minute_apart() {
     assert_ne!(Clock::new(15, 36), Clock::new(15, 37));
 }
