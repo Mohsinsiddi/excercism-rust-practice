@@ -275,7 +275,6 @@ fn test_compare_clocks_with_negative_minute() {
 }
 
 #[test]
-#[ignore]
 fn test_compare_clocks_with_negative_minute_that_wraps() {
     assert_eq!(Clock::new(5, -1490), Clock::new(4, 10));
 }
