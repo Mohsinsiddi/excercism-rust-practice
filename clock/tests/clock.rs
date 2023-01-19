@@ -204,7 +204,6 @@ fn test_subtract_more_than_two_hours_with_borrow() {
 }
 
 #[test]
-#[ignore]
 fn test_subtract_more_than_one_day() {
     let clock = Clock::new(5, 32).add_minutes(-1500);
     assert_eq!(clock.to_string(), "04:32");
