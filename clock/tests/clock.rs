@@ -260,7 +260,6 @@ fn test_compare_clocks_with_negative_hour_that_wraps_multiple_times() {
 }
 
 #[test]
-#[ignore]
 fn test_compare_clocks_with_minutes_overflow() {
     assert_eq!(Clock::new(0, 1441), Clock::new(0, 1));
 }
