@@ -240,7 +240,6 @@ fn test_compare_clocks_with_hour_overflow() {
 }
 
 #[test]
-#[ignore]
 fn test_compare_clocks_with_hour_overflow_by_several_days() {
     assert_eq!(Clock::new(99, 11), Clock::new(3, 11));
 }
