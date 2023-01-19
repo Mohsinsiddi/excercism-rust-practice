@@ -80,7 +80,6 @@ fn test_negative_minutes() {
 }
 
 #[test]
-#[ignore]
 fn test_negative_minutes_roll_over() {
     assert_eq!(Clock::new(1, -160).to_string(), "22:20");
 }
