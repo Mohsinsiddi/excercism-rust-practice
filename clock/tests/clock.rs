@@ -245,7 +245,6 @@ fn test_compare_clocks_with_hour_overflow_by_several_days() {
 }
 
 #[test]
-#[ignore]
 fn test_compare_clocks_with_negative_hour() {
     assert_eq!(Clock::new(-2, 40), Clock::new(22, 40));
 }
