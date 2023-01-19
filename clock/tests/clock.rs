@@ -270,7 +270,6 @@ fn test_compare_clocks_with_minutes_overflow_by_several_days() {
 }
 
 #[test]
-#[ignore]
 fn test_compare_clocks_with_negative_minute() {
     assert_eq!(Clock::new(3, -20), Clock::new(2, 40));
 }
