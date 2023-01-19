@@ -290,7 +290,6 @@ fn test_compare_clocks_with_negative_hours_and_minutes() {
 }
 
 #[test]
-#[ignore]
 fn test_compare_clocks_with_negative_hours_and_minutes_that_wrap() {
     assert_eq!(Clock::new(-54, -11_513), Clock::new(18, 7));
 }
