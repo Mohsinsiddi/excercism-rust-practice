@@ -19,7 +19,6 @@ fn one_duplicated_character() {
 }
 
 #[test]
-#[ignore]
 fn longest_reported_english_isogram() {
     assert!(
         check("subdermatoglyphic"),
