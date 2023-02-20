@@ -43,7 +43,6 @@ fn hypothetical_isogramic_word_with_hyphen() {
 }
 
 #[test]
-#[ignore]
 fn isogram_with_duplicated_hyphen() {
     assert!(
         check("six-year-old"),
