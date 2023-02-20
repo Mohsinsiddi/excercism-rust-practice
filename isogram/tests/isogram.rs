@@ -59,7 +59,6 @@ fn made_up_name_that_is_an_isogram() {
 }
 
 #[test]
-#[ignore]
 fn duplicated_character_in_the_middle() {
     assert!(
         !check("accentor"),
