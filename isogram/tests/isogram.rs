@@ -35,7 +35,6 @@ fn one_duplicated_character_mixed_case() {
 }
 
 #[test]
-#[ignore]
 fn hypothetical_isogramic_word_with_hyphen() {
     assert!(
         check("thumbscrew-japingly"),
