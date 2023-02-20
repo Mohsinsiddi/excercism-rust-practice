@@ -11,7 +11,6 @@ fn only_lower_case_characters() {
 }
 
 #[test]
-#[ignore]
 fn one_duplicated_character() {
     assert!(
         !check("eleven"),
