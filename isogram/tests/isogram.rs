@@ -6,7 +6,6 @@ fn empty_string() {
 }
 
 #[test]
-#[ignore]
 fn only_lower_case_characters() {
     assert!(check("isogram"), "\"isogram\" should be an isogram.")
 }
