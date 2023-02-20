@@ -27,7 +27,6 @@ fn longest_reported_english_isogram() {
 }
 
 #[test]
-#[ignore]
 fn one_duplicated_character_mixed_case() {
     assert!(
         !check("Alphabet"),
