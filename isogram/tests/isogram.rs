@@ -51,7 +51,6 @@ fn isogram_with_duplicated_hyphen() {
 }
 
 #[test]
-#[ignore]
 fn made_up_name_that_is_an_isogram() {
     assert!(
         check("Emily Jung Schwartzkopf"),
